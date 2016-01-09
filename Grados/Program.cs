@@ -10,6 +10,8 @@ namespace Grados
     {
         static void Main(string[] args)
         {
+            LibroDeCalificaciones Libro = new LibroDeCalificaciones();
+            Libro.AddCalificacion(97);
         }
     }
 }
